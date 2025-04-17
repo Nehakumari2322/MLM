@@ -1,0 +1,54 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.background{
+       background-color: rgb(208, 199, 199);
+}
+.fa{
+    font-size: 20px;
+    margin-left:10px;
+}
+.fa-user-circle{
+    font-size: 30px;
+    padding: 10px;
+}
+.right .btn{
+    /* width:250px; */
+    text-align: center;
+    background-color: #f45858;
+    color:white;
+    padding: 10px;
+    border-radius: 50px;
+    font-size: 15px;
+    width:100%;
+}
+.card{
+    border: none;
+}
+
+@media screen and (min-width:767px) and (max-width:988px){
+    .card #imges{
+        height:300px;
+    }
+}
+
+/* secound start */
+           .link{
+            border-bottom: 3px solid red;
+            padding: 5px;
+            font-weight: 500;
+           }       
+
+           .links{
+            border-bottom: 3px solid black;
+            padding: 5px;
+            font-weight: 500;
+           }
+           .fa-pencil{
+            font-size: 30px;
+           }
+           .box{
+             background-color: red;
+           }
+/* secound closed */

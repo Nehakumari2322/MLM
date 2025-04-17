@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 2vh;
+}
+h2 {
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+  padding: 1%;
+  font-size: 5vh;
+}
+
+.cources-section .card {
+  padding: 5%;
+}
+
+.footer-section {
+  background-color: #e0dddd;
+  margin-top: 5%;
+}
+.footer-section h2 {
+  text-align: left;
+}
+
+.avatar {
+  vertical-align: middle;
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+}

@@ -1,0 +1,148 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+/* section start */
+
+/* header register and login code */
+#header-section .border{
+    padding: 10px 45px;
+    border-radius: 25px;
+    background-color: red;
+    color:white;
+    border:none;
+}
+/* closed register and login code */
+
+/* header menu bar code */
+          .collapse li a{
+               color:#000;
+               font-weight: 400;
+               border-bottom: 3px solid transparent;
+          }  
+          /* .collapse li a{
+             color:red;
+             border-bottom: 3px solid red;
+          } */
+          .collapse a:hover{
+            border-bottom: 3px solid red;
+            color:red;
+            
+          }
+/* closed menun  bar code */
+
+
+/* section closed */
+
+/* second start */
+.wedding{
+    background-image: url('../../../img/matrimonial/wed.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/*#second-header{
+    position: relative;
+}
+.move{
+    position: absolute;
+    top: 40px;
+    left: 50%;
+}
+.mtwo{
+    position: absolute;
+    top: 30%;
+    left: 80px;
+    color: white;
+}*/
+.wedding span{
+    color: white;
+}
+  #second-header h2{
+       padding-top:200px;
+       color: white;
+  }
+  .just .border{
+    padding: 10px 40px;
+    border-radius: 25px;
+    background-color: red;
+    color:white; 
+  }
+  .Already{
+    font-size: 13px;
+  }
+/* second closed */
+
+
+/*section thrid*/
+    .section-third .border{
+             padding: 10px 45px;
+             border-radius: 25px;
+             color: white;
+             background-color: red;
+    }
+    .section-third {
+        background-color: lightgrey;
+    }
+    .section-third .box{
+        background-color: white;
+        border-radius:25px;
+    }
+    .section-third .box ul li a{
+        color: black;
+    }
+/*section thrid*/
+
+/*section four start*/
+#section-four{
+  background-image: gray;
+}
+  #section-four .fa{
+      background-color: red;
+      padding: 20px;
+      color: white;
+      font-size: 30px;
+      border-radius: 50px;
+  }
+  #section-four h3{
+    padding: 8px;
+  }
+  #section-four p{
+    font-size: 15px;
+  }
+/*/*section four closed**/
+
+/* .section-third .box select{
+    border: none;
+    margin-left: 10px;
+} */
+
+@media (max-width:912px) {
+  #btn-1{
+    font-size: 10px;
+    padding: 8px 25px;
+  }  
+}
+@media (max-width:480px) {
+     #size{
+      width:286px;
+     }
+    #line{
+      border:1px solid red;
+      margin: 9px;
+    }
+     #size .border{
+      width:286px;
+     }
+    
+}
+@media (max-width:992px) {
+  #size{
+           width: 100%;
+  }
+  .navbar{
+         display: block;      
+  }
+  #size .border{
+      width: 100%;
+  }
+}
